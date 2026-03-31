@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# local debug
+debugs/
+debugs7/
+debugs9/
+corrupted/
+fcol_320by320_final7/
+fcol_320by320_map/
+fcol_320by320_map_gt_fixed/
+fcol_320by320_map_gt_fixed_cont/
+weights/
