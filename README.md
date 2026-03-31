@@ -25,7 +25,7 @@ During training, the raw video data is converted to an LMDB dataset for efficien
 
 ## Results
 The transition to the ResNet18-FPN and FCOS head yielded highly accurate and stable detection capabilities. 
-* **20-Epoch Training**: The model achieved an Accuracy of **0.8730** and a validation IoU of **0.7177**.
-* **50-Epoch Training (with Early Stopping)**: The best performance reached an Accuracy of **0.9120** and a validation IoU of **0.7178**.
+* **20-Epoch Training**: The model achieved an training Accuracy of **0.8730** and a validation IoU of **0.7177**.
+* **50-Epoch Training (with Early Stopping)**: The best performance reached an training Accuracy of **0.9120** and a validation IoU of **0.7178**.
 
 Visualizations of the output show that the P4 classification heatmaps successfully isolate the exact locations of the defects. The model outputs high confidence scores (e.g., 0.54 to 0.79) when tightly bounding corrupted regions, while correctly assigning low confidence scores (e.g., ~0.13) and suppressing bounding boxes on clean, normal images.
